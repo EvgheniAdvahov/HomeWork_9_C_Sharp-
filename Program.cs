@@ -42,11 +42,7 @@ int ReadInt(string mesage)
 
 int FuncAcerman(int m, int n)
 {
-    if (m < 0)
-    {
-        return 0;
-    }
-    else if (m == 0)
+    if (m == 0)
     {
         return n + 1;
     }
